@@ -31,19 +31,19 @@ function randomNumber(min, max) {
     return risultato;
 }
 
-let totale = randomNumber(1, 5);
+let numeroComp = randomNumber(1, 5);
 
-function sommaNumeri(numeroUtente, randomNumber) {
-    let risultato = (numeroUtente + randomNumber);
+function sommaNumeri(numeroUtente, numeroComp) {
+    let risultato = (numeroUtente + numeroComp);
     return risultato;
 }
 
 let somma = sommaNumeri();
 
-if (sommaNumeri % 2 == 0) {
+if (somma % 2 == 0) {
     outputHtml.innerHTML += 'il numero è pari';
 } else {
-    outputHtml.innerHTML += 'il numero è disppari';
+
 }
 
 console.log(somma)
