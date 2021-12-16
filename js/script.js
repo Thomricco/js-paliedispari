@@ -1,20 +1,20 @@
 //Chiedere all’utente di inserire una parola 
-    const parola = prompt('inserisci una parola')
+    /*const parola = prompt('inserisci una parola')
     parolaDivisa = parola.split('');
-    console.log(parolaDivisa);
+    console.log(parolaDivisa);*/
 
 
 //&Creare una funzione per capire se la parola inserita è palindroma
 
-/*function polidroma() {
+function polidroma() {
     const parola = prompt('inserisci una parola')
     parolaDivisa = parola.split('');
-    return parola;
+    return parolaDivisa;
 }
 
 let fine = polidroma()
 
-console.log(fine)*/
+console.log(fine)
 
 
 //L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
