@@ -38,12 +38,12 @@ function sommaNumeri(numeroUtente, numeroComp) {
     return risultato;
 }
 
-let somma = sommaNumeri();
-
-if (somma % 2 == 0) {
-    outputHtml.innerHTML += 'il numero è pari';
-} else {
-
-}
+let somma = sommaNumeri(1, 5);
 
 console.log(somma)
+
+if (somma % 2 == 0) {
+    console.log('vince il numero pari');
+} else {
+    console.log('vince il numero disppari');
+}
